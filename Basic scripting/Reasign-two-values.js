@@ -29,8 +29,9 @@ console.log(a, b);
 a = arr[1];
 b = arr[0];*/
 
-let c = { "a": a, "b": b}
+/*let c = { "a": a, "b": b}
 a = c["b"];
-b = c["a"];
+b = c["a"];*/
 
+[a, b] = [b, a];
 console.log(a, b);
